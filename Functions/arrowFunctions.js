@@ -7,7 +7,7 @@ const plantNeedsWater = (day)=> {
 }
 console.log(plantNeedsWater('Wednesday'));
 
-//refractored to be concise the previos function in one line, applicable only to one parameter function.
+//refractored to be concise the previous function in one line, applicable only to functions with one parameter.
 const plantNeedsWater = day => day === 'Wednesday' ? true : false;
 
 
